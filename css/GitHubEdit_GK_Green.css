@@ -1,5 +1,5 @@
 body {
-  font-family: Helvetica, arial, sans-serif;
+  font-family:  Helvetica, arial, sans-serif;
   font-size: 14px;
   line-height: 1.6;
   padding-top: 10px;
@@ -57,31 +57,34 @@ h6 tt, h6 code {
   font-size: inherit; }
 
 h1 {
+  background-color: #27ae60;
   font-size: 28px;
-  text-align: center; 
-  border-bottom: 1px solid #cccccc;
-  color: #548DD4; }
+  color: white; 
+  text-align: center; }
 
 h2 {
-  font-size: 24px; }
+  font-size: 24px;
+  color: #2ecc71; }
 
 h3 {
-  font-size: 20px; 
-  color: #548DD4; }
+  font-size: 18px;
+  color: #2ecc71; }
 
 h4 {
-  font-size: 18px; }
+  font-size: 16px; 
+  color: #2ecc71;}
 
 h5 {
-  font-size: 16px;
-  color: #F79646; }
+  font-size: 14px; 
+  color: #2ecc71; }
 
 h6 {
-  color: #777777;
+  color: #2ecc71;
   font-size: 14px; }
 
-p, blockquote, ul, ol, dl, li, table, pre {
+p, ul, ol, dl, li, table, pre {
   font-family: 'lucida grande';
+  color: inherit;
   margin: 15px 0; }
 
 hr {
@@ -151,8 +154,7 @@ dl {
 
 blockquote {
   border-left: 4px solid #dddddd;
-  padding: 0 15px;
-  color: #777777; }
+  padding: 0 15px; }
   blockquote > :first-child {
     margin-top: 0; }
   blockquote > :last-child {
@@ -249,8 +251,9 @@ code, tt {
   margin: 0 2px;
   padding: 0 5px;
   white-space: nowrap;
-  border: 1px solid #eaeaea;
-  background-color: #f8f8f8;
+  color: white;
+  border: 1px solid #27ae60;
+  background-color: #2ecc71;
   border-radius: 3px; }
 
 pre code {
