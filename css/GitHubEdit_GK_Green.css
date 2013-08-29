@@ -274,7 +274,7 @@ pre code {
 
 pre {
   background-color: #f8f8f8;
-  border: 1px solid #cccccc;
+  border: 1px solid #2ECC71;
   font-size: 13px;
   line-height: 19px;
   overflow: auto;
@@ -282,7 +282,8 @@ pre {
   border-radius: 3px; }
   pre code, pre tt {
     background-color: transparent;
-    border: none; }
+    border: none;
+    color: #000000; }
 
 sup {
     font-size: 0.83em;
