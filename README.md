@@ -25,3 +25,7 @@ A collection of styling files for the markdown syntax. Most of these files are e
 * &lt;h1&gt; has a background color(green)
 * All headers are green
 * &lt;code&gt; and&lt;pre&gt; has background color(green)
+
+[] test
+[x] test1
+[] test2
